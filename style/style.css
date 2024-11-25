@@ -1,0 +1,27 @@
+       body {
+           font-family: Arial, sans-serif;
+           margin: 20px;
+       }
+
+       #articleContent {
+           margin-top: 20px;
+           display: none;
+       }
+
+       #articles {
+           list-style: none;
+           padding: 0;
+       }
+
+       #articles li {
+           margin-bottom: 10px;
+       }
+
+       #articles a {
+           text-decoration: none;
+           color: #007bff;
+       }
+
+       #articles a:hover {
+           text-decoration: underline;
+       }

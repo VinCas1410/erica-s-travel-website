@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.min.js"
+    integrity="sha512-HX+/SvM7094YZEKOCtG9EyjRYvK8dKlFhdYAnVCGNxMkA59BZNSZTZrqdDlLXp0O6/NjDb1uKnmutUeuzHb3iQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    <h1>RSS Feed Reader</h1>
+    
+    <div id="rssFeed">
+        <!-- List of articles -->
+        <ul id="articles"></ul>
+
+        <!-- Selected article content -->
+        <div id="articleContent" style="display:none;">
+            <h2 id="articleTitle"></h2>
+            <p id="articleDate"></p>
+            <div id="articleBody"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
