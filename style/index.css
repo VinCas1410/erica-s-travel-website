@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+}
+section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+section p,
+.qa-section p {
+    font-size: 1.25rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+    padding: 0 1rem;
+} 
+
+ .qa-section .question {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.qa-section h2 {
+    font-size: 1.75rem;
+    color: #444;
+    margin-bottom: 0.5rem;
+}

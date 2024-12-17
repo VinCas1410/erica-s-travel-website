@@ -1,0 +1,53 @@
+body,
+html {
+    height: 100%;
+}
+.hero {
+    margin-top: 4.8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99.6%;
+    height: 61.5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5vh solid rgba(0, 0, 0, 1);
+    border-radius: calc(1.11vw + 1.56vh);
+    background: url("../images/mounting.jpg");
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rectangle-2,
+.rectangle-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.59);
+    border-radius: calc(1.11vw + 1.56vh);
+    margin: 1rem 0;
+}
+
+.rectangle-2 {
+    width: 60.56%;
+    height: 27.15%;
+    background: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    top: 28.10%;
+    left: 19.79%;
+    right: 19.38%;
+    bottom: 35.56%;
+}
+
+.text {
+    font-size: 2.78vw;
+    line-height: 3.33vw;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 1rem 0;
+}
+
+
